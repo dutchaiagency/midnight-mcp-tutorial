@@ -48,7 +48,7 @@ function checkMidnightMcp() {
 
 console.log('Verifying midnight-mcp tutorial setup...\n');
 
-const results = [checkNodeVersion(), checkNpx()];
+const results = [checkNodeVersion(), checkNpx(), checkMidnightMcp()];
 
 if (results.every(Boolean)) {
   console.log('\nSetup verified. You are ready to follow the tutorial!');
