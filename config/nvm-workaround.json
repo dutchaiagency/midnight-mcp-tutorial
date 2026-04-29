@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "midnight": {
+      "command": "/bin/sh",
+      "args": [
+        "-c",
+        "source ~/.nvm/nvm.sh && nvm use 20 >/dev/null 2>&1 && npx -y midnight-mcp@latest"
+      ]
+    }
+  }
+}

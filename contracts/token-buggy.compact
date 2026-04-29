@@ -1,0 +1,12 @@
+// WARNING: This contract contains a deliberate bug for tutorial purposes.
+// The deprecated `ledger { }` block syntax will fail on newer Compact versions.
+// See token-fixed.compact for the corrected version.
+
+pragma language_version >= 0.14.0;
+
+import CompactStandardLibrary;
+
+export ledger {
+  balances: Map<Bytes<32>, Uint<64>>;
+  totalSupply: Uint<64>;
+}

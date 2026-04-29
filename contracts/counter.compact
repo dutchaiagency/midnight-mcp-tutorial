@@ -1,0 +1,15 @@
+pragma language_version >= 0.14.0;
+
+export ledger counter: Counter;
+
+constructor() {
+  counter = 0n;
+}
+
+export circuit increment(): [] {
+  counter += 1n;
+}
+
+export circuit get_counter(): Uint<64> {
+  return counter;
+}

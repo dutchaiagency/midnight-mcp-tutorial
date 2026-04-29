@@ -1,0 +1,8 @@
+// Corrected token contract using modern module-level ledger syntax.
+
+pragma language_version >= 0.14.0;
+
+import CompactStandardLibrary;
+
+export ledger balances: Map<Bytes<32>, Uint<64>>;
+export ledger totalSupply: Uint<64>;

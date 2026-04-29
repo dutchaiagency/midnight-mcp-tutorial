@@ -1,0 +1,15 @@
+{
+  "name": "midnight-mcp-tutorial",
+  "version": "1.0.0",
+  "description": "Companion code for the midnight-mcp tutorial: Using midnight-mcp for Contract Development with AI Assistants",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/verify-setup.js",
+    "demo": "node scripts/demo-session.js"
+  },
+  "keywords": ["midnight", "mcp", "blockchain", "compact", "zk-proofs"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
